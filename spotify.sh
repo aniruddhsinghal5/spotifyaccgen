@@ -16,7 +16,7 @@ echo ""
 printf "$cyan ======================================= \n"
 printf "$yell      -+SPOTIFY ACCOUNT CREATOR+-\n"
 printf "$cyan ======================================= \n"
-printf "$red        CREATED BY$white @azisek_ \n"
+printf "$red        CREATED BY$white Aniruddh Singhal \n"
 printf "$cyan ======================================= \n"
 printf "$white"
 cat <<EOF
@@ -29,15 +29,15 @@ daftar(){
     	then
         	date +%H:%M:%S
         	printf "$white[$green Success$white ] => $user.$random@mail.id|$pswd\n"
-        	echo "[ Sukses ]$user.$random@mail.id|$pswd" >> akun.txt
+        	echo "[ Sukses ]$user.$random@mail.id|$pswd" >> accounts.txt
 	else
         	date +%H:%M:%S
 		printf "$white[$red Failed$white ] => $user.$random@mail.id|$pswd\n"
 	fi
 }
-read -p "Jumlah : " jumlah
-read -p "Masukan Username (Bebas) : " user
-read -p "Masukan Password : " pswd
+read -p "Amount( To Be Generated) : " jumlah
+read -p "Username (To Be Kept) : " user
+read -p "Password (To Be Kept) : " pswd
 for (( i = 0; i < $jumlah; i++ )); do
 	daftar $user $pswd
 done
