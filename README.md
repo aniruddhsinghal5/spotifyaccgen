@@ -1,12 +1,12 @@
 # spotifyaccgen
 Automatically create a free spotify account
 
-# Cara Install 
+# How To Install 
 - apt update && pkg upgrade
 - apt install curl git
-- git clone https://github.com/kyo1337/spotifyaccgen
+- git clone https://github.com/aniruddhsinghal5/spotifyaccgen
 - cd spotifyaccgen
 - bash spotify.sh
-
-# Media Sosial :
-- https://linktr.ee/doko1554
+# Run This Everytime To Use :
+- cd spotifyaccgen
+- bash spotify.sh
